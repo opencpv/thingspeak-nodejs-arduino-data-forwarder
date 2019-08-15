@@ -1,0 +1,18 @@
+{
+  "name": "ieqserver",
+  "version": "1.0.0",
+  "description": "Server which forwards data to thingspeak platform througth the api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ksadams",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "serialport": "^7.1.5",
+    "socket.io": "^2.2.0"
+  }
+}
